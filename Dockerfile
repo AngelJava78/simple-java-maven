@@ -1,4 +1,4 @@
-FROM maven:3-eclipse-temurin-11-alpine
+FROM maven:3-alpine
 WORKDIR /appmavenjenkins
 ADD . /appmavenjenkins
 EXPOSE 3000
