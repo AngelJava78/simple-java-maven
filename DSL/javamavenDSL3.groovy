@@ -1,7 +1,7 @@
 job('Java Maven App DSL 3') {
     description('Java Maven App con DSL para el curso de Jenkins')
     scm {
-        git('https://github.com/AngelJava78/simple-java-maven-app.git', 'main') { node ->
+        git('https://github.com/AngelJava78/simple-java-maven.git', 'main') { node ->
             node / gitConfigName('AngelJava78')
             node / gitConfigEmail('angel_java@hotmail.com')
         }
@@ -49,7 +49,7 @@ job('Java Maven App DSL 3') {
 job('Job test Hola Mundo') {
 	description('Aplicacion Hola Mundo de Prueba')
 	scm {
-        git('https://github.com/AngelJava78/simple-java-maven-app.git', 'main') { node ->
+        git('https://github.com/AngelJava78/simple-java-maven.git', 'main') { node ->
             node / gitConfigName('AngelJava78')
             node / gitConfigEmail('angel_java@hotmail.com')
 		}
